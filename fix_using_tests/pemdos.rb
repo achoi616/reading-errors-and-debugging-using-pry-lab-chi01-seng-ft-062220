@@ -1,7 +1,7 @@
-def snake_it_up("surprise!")
-  if surprise![0] == "s"
-    "s" * 10 + "surprise!"
+def snake_it_up(x)
+  if x[0] == "s"
+    "s" * 10 + "x!"
   else
-    surprise
+    x
   end
 end
