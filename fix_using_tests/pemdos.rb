@@ -1,7 +1,7 @@
-def snake_it_up(string)
-  if string[0] == "s"
-    ['s'] * 10.to_s + 'string'
+def snake_it_up(surprise)
+  if surprise[0] == "s"
+    ['s'] * 10.to_s + 'surprise'
   else
-    string
+    surprise
   end
 end
